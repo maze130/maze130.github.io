@@ -1,0 +1,69 @@
+#header {
+width: 100%;
+height: 12%;
+background-color: #a491f7;
+position: fixed;
+left: 0;
+top: 0;
+}
+#footer {
+  width: 100%;
+  height: 12%;
+  background-color: #a491f7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+body {
+  background-color: #85929d;
+}
+img {
+  width: 92px;
+  height: auto;
+}
+.navbar {
+  margin-left: 5.5em;
+  position: fixed;
+  display: inline-block;
+  margin-top: -4.25em;
+}
+#welcome {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 5em;
+margin-top: -.4em;
+}
+#intro {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1em;
+  font-family: Cursive;
+  width: 5em;
+}
+a {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.navbar a {
+  border: 2px solid black;
+  display: inline;
+  margin-right: 2em;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+.socialbar a {
+  text-decoration: none;
+  border: 2px solid black;
+  display: inline;
+  color: black;
+  position: relative;
+  margin-right: .5em;
+}
+.socialbar {
+  position: fixed;
+  margin-top: 32.5em;
+}

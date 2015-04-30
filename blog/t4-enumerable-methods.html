@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>Maze130's Beginner's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Enumerable Methods</h1><!-- post title -->
+  <h2>.map</h2><!-- subtitle -->
+  <h4>Thursday April 30th 2015</h4><!-- today's date -->
+
+  <section>
+    <p>
+      Hello everyone. I am glad to be back and help with a few technical concepts in the ruby language. Of course this is still a post to help beginner's as I myself am one as well. There are a ton of methods to call on objects and make them do what you want in your own program. Today we are going to take a look at one in particular which is .map. This method pertains to changing information in an array. If you do not remember, an array is set up like this: names = ['john','joe','jason','chris','adam']. That is a basic array of different names that we can access at a later time. Again to acces the entire list you can put, puts names. This would object of the array. Similarly if you put, puts names[3] then 'chris' would be displayed. Now typically you would want the first letter of a name to be capitalized. This is where the .map and .map! comes in handy. .map will take the info from the original names array and create a new array with the updated values. To capitalize each name you would put: names.map {|name| puts name.capitalize}. This would change each name to start with a capital letter but if you called  puts names. Each name would still be lower case. To permanently change the first letter you would use .map!. The code would look almost exactly the same: names.map! {|name| name.capitalize}. Now if you were to call puts names, it would print the array with the names now capitalized. So to review, .map creates a new array with the info and modifies it accordingly. The .map! method permanently changes the original array to display the now modified objects. Hope this little was helpful and useful for future programs.
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+

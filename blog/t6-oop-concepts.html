@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>Maze130's Beginner's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Class Methods</h1><!-- post title -->
+  <h2></h2><!-- subtitle -->
+  <h4>Monday May 18th 2015</h4><!-- today's date -->
+
+  <section>
+    <p>
+      In ruby everything is considered an object. This includes class methods. Now class methods only exist inside the class that defines these methods. An example of a class method is:  Class Test
+                    def Test.class_method
+                      puts "this is a test"
+                    end
+                    def initialize(x)
+                      @x = x
+                    end
+                    def test2
+                      puts "another way to use a method"
+                    end
+                  end
+      This allows us to call this method by doing Test.class_method. When called it would puts "this is a test" to the console. Someone would use these class methods when the method does not deal with a singular instance of a class. This would be versus having an instance variable. The instance variable in the above example is the method test2. You would first have to call and initialize the class test. MVP = Test.new. Only then would you have access to the test2 method but within the MVP variable itself. So if one were to put MVP.test2 then "another way to use a method" would be printed to the console. This is all slightly confusing at first. A recommendation creating your own class and variable methods would help seal some of the knowledge about how they work further. Instance variable are also able to access class methods and variables but not the other way around. Application configuration would be one way of using a class method properly.
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
